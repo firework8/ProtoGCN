@@ -73,6 +73,19 @@ This repo is mainly based on [PYSKL](https://github.com/kennymckormick/pyskl). W
 
 Thanks to the original authors for their excellent work!
 
+## Citation
+
+If you find ProtoGCN useful in your research, please consider citing our paper:
+
+```
+@article{liu2024revealing,
+  title={Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition},
+  author={Liu, Hongda and Liu, Yunfan and Ren, Min and Wang, Hao and Wang, Yunlong and Sun, Zhenan},
+  journal={arXiv preprint arXiv:2411.18941},
+  year={2024}
+}
+```
+
 ## Contact
 
 For any questions, feel free to contact: `hongda.liu@cripac.ia.ac.cn`
