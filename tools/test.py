@@ -56,6 +56,8 @@ def multi_gpu_test(model: nn.Module,
     results = []
     dataset = data_loader.dataset
     rank, world_size = get_dist_info()
+    # optional: save graphs for visualization
+    # save_graph = []
 
     if rank == 0:
         prog_bar = mmcv.ProgressBar(len(dataset))
@@ -63,7 +65,9 @@ def multi_gpu_test(model: nn.Module,
     for i, data in enumerate(data_loader):
         with torch.no_grad():
             result = model(return_loss=False, **data) 
+            # result, get_graph = model(return_loss=False, **data)
         results.extend(result)
+        # save_graph.append(get_graph)
         
         if rank == 0:
             batch_size = len(result)
@@ -79,6 +83,9 @@ def multi_gpu_test(model: nn.Module,
     else:
         result_from_ranks = collect_results_cpu(results, len(dataset), tmpdir)
 
+    # graph_data = np.array(save_graph)
+    # np.save('graph.npy', graph_data)
+    
     return result_from_ranks
 
 
