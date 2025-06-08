@@ -6,7 +6,7 @@
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2411.18941) [![models](https://img.shields.io/badge/Link-Models-87CEEB.svg)](https://drive.google.com/drive/folders/1BLtlGlv19nY6QcYsVyOBo7nBr3iw5cFl?usp=sharing) [![video](https://img.shields.io/badge/License-MIT-yellow?style=flat)](/LICENSE) [![Hugging Face](https://img.shields.io/badge/Page-Hugging_Face-6C3483?style=flat)](https://huggingface.co/firework8/ProtoGCN)
 
-This is the official PyTorch implementation for "[Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition](https://arxiv.org/abs/2411.18941)". The paper is accepted to CVPR 2025.
+This is the official PyTorch implementation for "[Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Revealing_Key_Details_to_See_Differences_A_Novel_Prototypical_Perspective_CVPR_2025_paper.html)". The paper is accepted to CVPR 2025.
 
 ### Abstract
 > In skeleton-based action recognition, a key challenge is distinguishing between actions with similar trajectories of joints due to the lack of image-level details in skeletal representations. Recognizing that the differentiation of similar actions relies on subtle motion details in specific body parts, we direct our approach to focus on the fine-grained motion of local skeleton components. To this end, we introduce ProtoGCN, a Graph Convolutional Network (GCN)-based model that breaks down the dynamics of entire skeleton sequences into a combination of learnable prototypes representing core motion patterns of action units. By contrasting the reconstruction of prototypes, ProtoGCN can effectively identify and enhance the discriminative representation of similar actions. Without bells and whistles, ProtoGCN achieves state-of-the-art performance on multiple benchmark datasets, including NTU RGB+D, NTU RGB+D 120, Kinetics-Skeleton, and FineGYM, which demonstrates the effectiveness of the proposed method.
@@ -78,11 +78,12 @@ Thanks to the original authors for their excellent work!
 If you find ProtoGCN useful in your research, please consider citing our paper:
 
 ```
-@article{liu2024revealing,
-  title={Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition},
+@inproceedings{liu2025revealing,
+  title={Revealing key details to see differences: A novel prototypical perspective for skeleton-based action recognition},
   author={Liu, Hongda and Liu, Yunfan and Ren, Min and Wang, Hao and Wang, Yunlong and Sun, Zhenan},
-  journal={arXiv preprint arXiv:2411.18941},
-  year={2024}
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={29248--29257},
+  year={2025}
 }
 ```
 
