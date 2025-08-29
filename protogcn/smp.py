@@ -156,10 +156,15 @@ def r2h(rgb):
 
 def fnp(model, input=None):
     params = parameter_count(model)['']
+    print("=" * 50)
+    print("Model Parameters and FLOPs Calculation:")
     print('Parameter Size: {:.4f} M'.format(params / 1024 / 1024))
+    print("=" * 50)
     if input is not None:
         flops = FlopCountAnalysis(model, input).total()
+        print("=" * 50)
         print('FLOPs: {:.4f} G'.format(flops / 1024 / 1024 / 1024))
+        print("=" * 50)
         return params, flops
     return params, None
 
