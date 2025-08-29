@@ -1,9 +1,5 @@
 # ProtoGCN
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revealing-key-details-to-see-differences-a/skeleton-based-action-recognition-on-ntu-rgbd-1)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd-1?p=revealing-key-details-to-see-differences-a)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revealing-key-details-to-see-differences-a/skeleton-based-action-recognition-on-ntu-rgbd)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd?p=revealing-key-details-to-see-differences-a)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revealing-key-details-to-see-differences-a/skeleton-based-action-recognition-on-kinetics)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-kinetics?p=revealing-key-details-to-see-differences-a)
-
 [![paper](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2411.18941) [![models](https://img.shields.io/badge/Link-Models-87CEEB.svg)](https://drive.google.com/drive/folders/1BLtlGlv19nY6QcYsVyOBo7nBr3iw5cFl?usp=sharing) [![video](https://img.shields.io/badge/License-MIT-yellow?style=flat)](/LICENSE) [![Hugging Face](https://img.shields.io/badge/Page-Hugging_Face-6C3483?style=flat)](https://huggingface.co/firework8/ProtoGCN)
 
 This is the official PyTorch implementation for "[Revealing Key Details to See Differences: A Novel Prototypical Perspective for Skeleton-based Action Recognition](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Revealing_Key_Details_to_See_Differences_A_Novel_Prototypical_Perspective_CVPR_2025_paper.html)". The paper is accepted to CVPR 2025.
